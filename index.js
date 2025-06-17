@@ -35,5 +35,31 @@ alert(
 var username = prompt("What's your firstname?");
 var firstChar = username.slice(0, 1).toUpperCase();
 var restOfUserName = username.slice(1, -1); //could use the .length function to solve
+var restOfUserName = restOfUserName.toLowerCase();
 var realName = firstChar + restOfUserName;
 console.log("Hello " + realName);
+
+//Basic arithmetic and modulo operator in js
+
+// Dog age to human age formula - humanAge = (dogAge -2) * 4 + 21
+
+var dogAge = prompt("What's your dog's age? "); // create a var to store dog age from user
+
+
+var humanAge = (dogAge - 2) * 4 + 21; //Use the user input for dog age into formula
+
+alert("Your dog's human age is " + humanAge  ); //display the human age from the answer to user
+
+//Increment and decrement expressions
+
+var x = 1;
+x =+ 1;
+alert(x); // evalute to 2
+x++;
+alert(x);// evaluate to 3
+
+// Functions
+
+function functionName() {
+  //some code
+}
