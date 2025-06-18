@@ -63,3 +63,13 @@ alert(x);// evaluate to 3
 function functionName() {
   //some code
 }
+
+function lifeInWeeks(num) {
+  var daysLeft = num * 365,
+      monthsLeft = num * 12,
+      weeksLeft = num * 52;
+
+}
+
+
+
