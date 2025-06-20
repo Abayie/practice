@@ -45,18 +45,17 @@ console.log("Hello " + realName);
 
 var dogAge = prompt("What's your dog's age? "); // create a var to store dog age from user
 
-
 var humanAge = (dogAge - 2) * 4 + 21; //Use the user input for dog age into formula
 
-alert("Your dog's human age is " + humanAge  ); //display the human age from the answer to user
+alert("Your dog's human age is " + humanAge); //display the human age from the answer to user
 
 //Increment and decrement expressions
 
 var x = 1;
-x =+ 1;
+x = +1;
 alert(x); // evalute to 2
 x++;
-alert(x);// evaluate to 3
+alert(x); // evaluate to 3
 
 // Functions
 
@@ -66,10 +65,6 @@ function functionName() {
 
 function lifeInWeeks(num) {
   var daysLeft = num * 365,
-      monthsLeft = num * 12,
-      weeksLeft = num * 52;
-
+    monthsLeft = num * 12,
+    weeksLeft = num * 52;
 }
-
-
-
