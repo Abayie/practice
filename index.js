@@ -105,3 +105,4 @@ function isLeap(year) {
 }
 
 console.log(isLeap(2100));
+
